@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="initial-scale=1.0,width=device-width,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0">
+<meta name="title" content="Makeup by Hanna K" />
+<meta name="description" content="Makeup artist in Shanghai, China" />
+<meta name="keywords"
+  content="makeup, mua, makeup artist, makeup shanghai, event makeup, makeup lessons, fashion photoshoot, model makeup, model photoshoot, makeup consultation, choose makeup, choose cosmetics">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+<meta property="og:type" content="website" />
+<title>Makeup by Hanna K</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,600;1,400&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <header class="cd-header">
+
+		<div class="logo">
+            <img src="images/hanna-logo.jpg" alt="Hanna Logo" class="logo"/>
+		</div>
+    <div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="#contact">Contact Info</a>
+  <a href="fashion-photoshoots.html">Fashion Photoshoots</a>
+  <a href="client-photoshoots.html">Client Photoshoots</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+	</header>
+<br>
+
+  <div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="images/billboard-model3.jpg" style="width:100%" alt="model photo">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/billboard-model1b.jpg" style="width:100%" alt="model photo">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/billboard-model2.jpg"  style="width:100%" alt="model photo">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/billboard-model6c.jpg"  style="width:100%" alt="model photo">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/billboard-model7.JPG"  style="width:100%" alt="model photo">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/billboard-model7a.JPG"  style="width:100%" alt="model photo">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/billboard-model8.png"  style="width:100%" alt="model photo">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/billboard-model9a.jpg"  style="width:100%" alt="model photo">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/billboard-model10.JPG"  style="width:100%" alt="model photo">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/billboard-model11a.jpg"  style="width:100%" alt="model photo">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/billboard-model12a.jfif"  style="width:100%" alt="model photo">
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+    <span class="dot" onclick="currentSlide(9)"></span>
+    <span class="dot" onclick="currentSlide(10)"></span>
+    <span class="dot" onclick="currentSlide(11)"></span>
+  </div> -->
+
+
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+
+
+
+
+<div class="services-background">
+<div class="services-container">
+  <h2>Services</h2>
+<div class="services-row">
+  <div class="services-column">
+    <img src="images/services-photoshoot.JPG" alt="Fashion Photoshoots" style="width:100%">
+    <h3>Fashion Photoshoots</h3>
+    <h5>Make your portfolio stand out</h5>
+    <button class="button buttonPortfolio"> <a href="fashion-photoshoots.html">View More</a></button>
+  </div>
+  <div class="services-column">
+    <img src="images/services-client-photoshoot.jfif" alt="Client Photoshoots" style="width:100%">
+    <h3>Client Photoshoots</h3>
+    <h5>Feel like a celebrity for one day</h5>
+    <button class="button buttonPortfolio"> <a href="client-photoshoots.html">View More</a></button>
+  </div>
+  <div class="services-column">
+    <img src="images/services-event-makeup.jpg" alt="Event makeup" style="width:100%">
+    <h3>Event Makeup</h3>
+    <h5>Enjoy being in the center of attention</h5>
+    <button class="button buttonPortfolio"> <a href="event-makeup.html">View More</a></button>
+  </div>
+  <div class="services-column">
+    <img src="images/services-makeup-consultation.jpg" alt="Makeup Consultation" style="width:100%">
+    <h3>Makeup Consultations</h3>
+    <h5>Capture your best version with the right makeup</h5>
+  </div>
+
+</div>
+</div>
+</div>
+
+
+
+<div class="introduction-container">
+<h2>About me</h2>
+<img src="images/hanna-intro3.jfif" alt="Your Image">
+<p>I specialise in beauty make up, but I also enjoy exploring traditional beauty representations of different cultures. </p>
+<p>It all started when I was a guest at my friend’s Indian wedding, but when the assigned makeup artist failed to deliver I had to step up and do what I could to help. I have learnt a lot since then, but it will always be my proud moment, which encouraged me to start my MUA journey. As the wedding progressed I also did make up for some guests, the bride’s mom and even the groom. This is when I realised that beauty should be accessible to everyone, no matter what is their age or gender.</p>
+<p>In addition, I live in Shanghai which gives me an opportunity to be close to and familiar with Asian beauty trends. It is a fashion hub, where artists of all fields can fulfil their creative ideas and form interesting collaborations. </p>
+<p>For me make up is all about enchanting the natural beauty and making you feel like you, but on a good day. Make up is skin deep but its effects are not, sometimes we all need a confidence boost or just a simple reminder of how unique and individual we are.
+</p>
+</div>
+
+
+<!-- Testimonials -->
+<div class="tes-slideshow-container">
+
+<div class="tes-mySlides">
+  <q>I’ve known Hanna to be a one-of-a-kind woman and friend, but when I discovered her knowledge in the world of make-up and beauty, I started appreciating her even more. During our photo shoot together she made me feel one-of-a-kind as well, and beautiful in ways that I didn’t expect! If you’re looking for someone that will bring out the best in you, both on the inside and outside, Hanna is your girl!</q>
+  <p class="author">- Stefanie Candela, Boxing Coach & F45 Trainer</p>
+</div>
+
+<div class="tes-mySlides">
+  <q>As a big fan of eyeliner, for many years I was convinced that it’s the only thing that matches me. So, when Hanna suggested trying on (omg) shadows with the golden hint, I was more than skeptical about it. However, despite all concerns, I decided to give it a try & trust Hanna. And...What she did was true magic - she had not only shown how much this style matches me, but also brought the feeling of the beauty within. I totally love every makeup experience I have with Hanna & looking forward to trying more new things.</q>
+  <p class="author">- Maria, Marketing & BD Manager</p>
+</div>
+
+<div class="tes-mySlides">
+  <q>Hanna did my makeup during the three days of my wedding. She was able to match the makeup with my colorful and shiny Indian outfit and still make my skin look natural. Also, she helped me to keep calm and confident during all the ceremonies. I'll never forget how you saved my wedding, Hanna! </q>
+  <p class="author">- Olena Kutinova, Marketing Manager</p>
+</div>
+
+ <div class="tes-mySlides">
+   <q>Working with Hanna was both professional as well as enjoyable. I think the best part of the experience is that she asked me for a concept then she took it to the next level with props, poses and even locations. Additionally, I learned some small but useful tips about doing my makeup from her. I’ll always be “warming” my concealer now! I’d definitely work with her again either in a business or causal setting. 5 stars </q>
+   <p class="author">- Casey M Owens, OFA Head</p>
+ </div>
+
+ <div class="tes-mySlides">
+   <q>I'm not very good with makeup, I feel it’s boring to watch makeup tutorials, that's why I never really learned how to do nice makeup. Hanna explained it to me in a very understandable language. She is full of knowledge and patient about makeup. Now I'm a little better with my makeup.</q>
+   <p class="author">- Liudmyla Dudar, Teacher</p>
+ </div>
+
+
+<a class="prev" onclick="plusTesSlides(-1)">❮</a>
+<a class="next" onclick="plusTesSlides(1)">❯</a>
+
+</div>
+
+<!-- <div class="tes-dot-container">
+  <span class="tes-dot" onclick="currentTesSlide(1)"></span>
+  <span class="tes-dot" onclick="currentTesSlide(2)"></span>
+  <span class="tes-dot" onclick="currentTesSlide(3)"></span>
+  <span class="tes-dot" onclick="currentTesSlide(4)"></span>
+  <span class="tes-dot" onclick="currentTesSlide(5)"></span>
+</div> -->
+
+<script>
+var slideTesIndex = 1;
+showTesSlides(slideTesIndex);
+
+function plusTesSlides(n) {
+  showTesSlides(slideTesIndex += n);
+}
+
+function currentTesSlide(n) {
+  showTesSlides(slideTesIndex = n);
+}
+
+function showTesSlides(n) {
+  var k;
+  var tesSlides = document.getElementsByClassName("tes-mySlides");
+  var tesDots = document.getElementsByClassName("tes-dot");
+  if (n > tesSlides.length) {slideTesIndex = 1}
+  if (n < 1) {slideTesIndex = tesSlides.length}
+  for (k = 0; k < tesSlides.length; k++) {
+      tesSlides[k].style.display = "none";
+  }
+  for (k = 0; k < tesDots.length; k++) {
+      tesDots[k].className = tesDots[k].className.replace(" active", "");
+  }
+  tesSlides[slideTesIndex-1].style.display = "block";
+  tesDots[slideTesIndex-1].className += " active";
+}
+</script>
+
+
+
+
+<br>
+<button class="button buttonPortfolio"> <a href="fashion-photoshoots.html">Check Portfolio</a></button>
+
+
+
+
+<footer>
+<!-- Social Media-->
+<h2 id="contact">Contact Information</h2>
+<h3>WeChat: hannakarazhova</h3>
+<p><em></em></p>
+<div class="social-container">
+<div class="social-menu">
+
+    <li><a href="https://api.whatsapp.com/send?phone=+8613012876134" target="_blank"> <i class="fab fa-whatsapp"></i> </a></li>
+
+    <li><a href="https://www.instagram.com/makeup_by_hannak/" target="_blank"><i class="fab fa-instagram"></i> </a></li>
+    <li><a href="mailto:makeup_by_hannak@hotmail.com" target="_blank"><i class="far fa-envelope"></i> </a></li>
+  <!--  <li><a href="weixin://dl/chat?hannakarazhova" target="_blank"><i class="fab fa-weixin"></i> </a></li>-->
+
+</div>
+
+<img src="images/Hanna-QR-code3.png" style="width:150px;margin: 20px 0;" alt="WeChat QR code">
+
+</div>
+
+<div class="copyright">
+
+<p>&copy; Makeup by Hanna K</p>
+<p>Shanghai, China</p>
+</div>
+</footer>
+
+<!-- credits section
+Website created by Olena Kutinova https://www.linkedin.com/in/olena-kutinova/
+-->
+
+  </body>
+</html>
